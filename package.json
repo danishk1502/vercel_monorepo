@@ -1,0 +1,8 @@
+{
+  "name": "my-monorepo",
+  "private": true,
+  "workspaces": [
+    "project/blog-vercel-startup-first",
+    "project/blog-vercel-startup-second"
+  ]
+}
