@@ -2,7 +2,16 @@
   "name": "my-monorepo",
   "private": true,
   "workspaces": [
-    "project/my-app",
-    "project/my-app2"
-  ]
+    "projects/my-app",
+    "projects/my-app2",
+    "api"
+  ],
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.5.0",
+    "@vercel/node": "^2.1.0"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.16.0"
+  }
 }
