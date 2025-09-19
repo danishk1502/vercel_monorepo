@@ -1,0 +1,57 @@
+# Node.js and npm/yarn/pnpm
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build outputs (common for front-end frameworks)
+dist/
+build/
+.next/
+out/
+public/build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependency caches
+.pnpm-store/
+.eslintcache
+.turbo/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+coverage/
+*.log
+*.log.*
+
+# Vercel-specific
+.vercel/
+.output/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Monorepo-specific (optional, for root-level ignores)
+*.bak
+*.gho
+*.orig
+*.rej
