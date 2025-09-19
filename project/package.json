@@ -1,8 +1,0 @@
-{
-  "name": "project",
-  "private": true,
-  "workspaces": [
-    "blog-vercel-startup-first",
-    "blog-vercel-startup-second"
-  ]
-}
